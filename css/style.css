@@ -10,7 +10,13 @@ body {
    background-image: url(../images/wallpaper.jpg);
    background-size: cover;
 }
- .row {
+@media (max-width:767px) {
+    body {
+       background-image: url(../images/mobile.webp);
+       background-size: cover; 
+    } 
+}
+.row {
    display: grid;
    grid-template-columns: repeat(2, auto);
    justify-content: center;
