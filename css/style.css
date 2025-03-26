@@ -40,7 +40,9 @@ body {
 }
 @media (max-width: 767px) {
    .row .card-item {
-      margin: 25px;
+      margin-top: 25px;
+      width: 380px;
+      height: 550px;
    } 
 }
 .row .card-box {
