@@ -96,9 +96,11 @@ button {
    border: none;
    border-radius: 8px;
    background-color: rgba(0, 0, 0, 0.6);
-   color: #f9f9f9de; 
+   color: #f9f9f9de;
+   transition: 0.3s; 
 }
 button:hover {
+  font-size: 18px; 
   background-color: rgba(0, 0, 0, 1);  
 }
 
